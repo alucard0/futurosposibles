@@ -29,7 +29,9 @@ a:focus {
 
 /*Fin General*/
 /*Contenido*/
-
+div.opciones{
+  cursor: pointer;
+}
 /*Menu*/
 
 /*Fin Footer*/
