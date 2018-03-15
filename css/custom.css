@@ -5,9 +5,10 @@ body {
   height: 100%;
   width: 100%;
   font-family: Roboto, sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   font-style: normal;
   font-size: 18px;
+  color: #fff;
 }
 
 
@@ -29,10 +30,166 @@ a:focus {
 
 /*Fin General*/
 /*Contenido*/
+div.bgContenido{
+  background-image: url('../images/futuros/bgFuturos.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+}
+/*Menu*/
 div.opciones{
   cursor: pointer;
 }
-/*Menu*/
+
+div.bgAzul{
+  background: #03123D;
+}
+div.bgAzul:hover,div.bgAzul:focus{
+ 
+  background: #12235F;
+}
+div.opciones.active{
+ 
+  background: #12235F;
+}
+
+div.bgGris1{
+  background: #7C7F80;
+}
+
+div.bgGris2{
+  background: #9295A2;
+}
+
+div.bgGris3{
+  background: #7D7F83
+}
+div.bgGris4{
+  background: #606060;
+}
+div.menu p{
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+hr.horizontal{
+  border: 0;
+  width: 25%;
+  margin: 0 auto 0 0;
+}
+hr.horizontal.rojo{
+  border-top: 3px solid #c30824;
+}
+
+/*portada*/
+div#portada p.titulo{
+  margin-bottom: 0;
+  text-align: center;
+  /*padding: 20px 0;*/
+  font-size: 70px;
+  line-height: 70px;
+}
+div#portada p.titulo span.diagonalRojo{
+  color: #B1132F;
+  margin-right: 10px;
+  margin-left: : 10px;
+}
+/*Seccion futuros posibles*/
+div#campana div.bgPrepa{
+  background-image: url('../images/futuros/invitacion_Campana_1.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#campana p.titulo{
+  margin-bottom: 0;
+  text-align: center;
+  /*padding: 20px 0;*/
+  font-size: 40px;
+}
+div#campana p.titulo span.diagonalRojo{
+  color: #B1132F;
+  margin-right: 10px;
+}
+div#campana div.bgPrepa div.bgTitulo{
+  background: rgba(0, 159, 213, 0.8);
+}
+div#campana div.bgLicenciatura div.bgTitulo{
+  background: rgba(18, 35, 95, 0.8);
+}
+div#campana div.bgPosgrado div.bgTitulo{
+  background: rgba(3, 18, 61, 0.8);
+}
+
+div#campana div.bgLicenciatura{
+  background-image: url('../images/futuros/invitacion_Campana_2.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#campana div.bgPosgrado{
+  background-image: url('../images/futuros/invitacion_Campana_3.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*Plataformas*/
+.h-33{
+  height: 33.3%!important;
+}
+div#plataformas p.titulo{
+  margin-bottom: 0;
+  text-align: center;
+  /*padding: 20px 0;*/
+  font-size: 60px;
+}
+div#plataformas p.titulo span.diagonalRojo{
+  color: #B1132F;
+  margin-right: 10px;
+  margin-left: : 10px;
+}
+.bgSitio{
+  background-image: url('../images/plataformas/invitacion_Plataformas_2.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgTest{
+  background-image: url('../images/plataformas/invitacion_Plataformas_1.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgForo{
+  background-image: url('../images/plataformas/invitacion_Plataformas_3.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*Quiz*/
 
 /*Fin Footer*/
 /*Media Queries*/

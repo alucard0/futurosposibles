@@ -1,4 +1,5 @@
 jQuery(function($){
+	$("div#campana").hide();
 	$("div#plataformas").hide();
 	$("div#quiz").hide();
 	$("div#imagenesCampana").hide();
@@ -10,12 +11,13 @@ jQuery(function($){
 		var selector="#"+$(this).attr('key');
 		if($(selector).is(":visible")){
 			$(selector).siblings().hide();
-
 		}
 		else
 		{
 			$(selector).siblings().hide();
 			$(selector).show();
+			$("div.row div.opciones").siblings().removeClass("active");
+			$(this).addClass("active");
 		}
 
 	});
