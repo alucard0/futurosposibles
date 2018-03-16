@@ -10,8 +10,12 @@ body {
   font-size: 18px;
   color: #fff;
 }
-
-
+div.modal{
+  color: #000;
+}
+div.modal-header {
+  border-bottom: none;
+}
 a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -24,7 +28,31 @@ a:focus {
   text-decoration: none;
 }
 
-
+.close {
+  font-size: 5.5rem;
+  right: -50px;
+  top: -50px;
+  position: absolute;
+  text-shadow: none;
+  opacity: 1;
+  color: #7d7d7d;
+}
+button.close {
+    padding: 0;
+    background-color: white;
+    border: black solid 4px;
+    border-radius: 80px;
+}
+.modal-header .close {
+    padding: 0px 24px;
+    margin: 0;
+}
+.modal-content{
+  font-size: 30px;
+}
+.modal-content p.contenido{
+  margin-top: 40px;
+}
 /*Botones*/
 
 
@@ -52,7 +80,7 @@ div.bgAzul:hover,div.bgAzul:focus{
 }
 div.opciones.active{
  
-  background: #12235F;
+  background: #B1132F;
 }
 
 div.bgGris1{
@@ -85,6 +113,10 @@ hr.horizontal.rojo{
   border-top: 3px solid #c30824;
 }
 
+div.opciones.active hr.horizontal.rojo{
+  border-top: 3px solid #fff;
+}
+
 /*portada*/
 div#portada p.titulo{
   margin-bottom: 0;
@@ -97,6 +129,10 @@ div#portada p.titulo span.diagonalRojo{
   color: #B1132F;
   margin-right: 10px;
   margin-left: : 10px;
+}
+div#portada figure{
+  margin-left: 235px;
+    margin-top: 80px;
 }
 /*Seccion futuros posibles*/
 div#campana div.bgPrepa{
@@ -154,13 +190,13 @@ div#campana div.bgPosgrado{
 div#plataformas p.titulo{
   margin-bottom: 0;
   text-align: center;
-  /*padding: 20px 0;*/
   font-size: 60px;
 }
 div#plataformas p.titulo span.diagonalRojo{
   color: #B1132F;
   margin-right: 10px;
-  margin-left: : 10px;
+  margin-left: 10px;
+  font-weight: 900;
 }
 .bgSitio{
   background-image: url('../images/plataformas/invitacion_Plataformas_2.png');
@@ -191,6 +227,182 @@ div#plataformas p.titulo span.diagonalRojo{
 }
 /*Quiz*/
 
+/*Ilustraciones*/
+.bgIl1{
+  background-image: url('../images/ilustraciones/Ilustraciones_Close_Pedro.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgIl2{
+  background-image: url('../images/ilustraciones/Ilustraciones_Close_Alan.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgIl3{
+  background-image: url('../images/ilustraciones/Ilustraciones_Close_Tania.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgIl4{
+  background-image: url('../images/ilustraciones/Ilustraciones_Close_Javier_A.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgIl5{
+  background-image: url('../images/ilustraciones/Ilustraciones_Close_Saucedo.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgIl6{
+  background-image: url('../images/ilustraciones/Ilustraciones_Close_Javier_B.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgIl7{
+  background-image: url('../images/ilustraciones/Ilustraciones_Close_Meave.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgIl8{
+  background-image: url('../images/ilustraciones/Ilustraciones_Close_Arturo.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgIl9{
+  background-image: url('../images/ilustraciones/Ilustraciones_Close_Pichardo.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*Aceleradores*/
+div#aceleradores div.bgA1{
+  background-image: url('../images/aceleradores/Aceleradores_3D.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+div#aceleradores div.bgA2{
+  background-image: url('../images/aceleradores/Aceleradores_Boda.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#aceleradores div.bgA3{
+  background-image: url('../images/aceleradores/Aceleradores_CAL.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#aceleradores div.bgA4{
+  background-image: url('../images/aceleradores/Aceleradores_HappyPoint.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#aceleradores div.bgA5{
+  background-image: url('../images/aceleradores/Aceleradores_Combustible.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#aceleradores div.bgA6{
+  background-image: url('../images/aceleradores/Aceleradores_Esperanza.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#aceleradores div.bgA7{
+  background-image: url('../images/aceleradores/Aceleradores_Carros.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#aceleradores div.bgA8{
+  background-image: url('../images/aceleradores/Aceleradores_NASA.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#aceleradores div.bgA9{
+  background-image: url('../images/aceleradores/Aceleradores_Unicel.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#aceleradores p.titulo{
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 60px;
+}
+div#aceleradores p.titulo span.diagonalRojo{
+  color: #B1132F;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-weight: 900;
+}
 /*Fin Footer*/
 /*Media Queries*/
 
@@ -218,5 +430,8 @@ div#plataformas p.titulo span.diagonalRojo{
 
 /* Extra large devices (large desktops, 1200px and up*/
 @media (min-width: 1200px) {
-
+  .modal-xl {
+        width: 90%;
+       max-width:1200px;
+  }
 }

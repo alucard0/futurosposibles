@@ -29,6 +29,7 @@
     <!-- Theme CSS -->
     <link href="css/custom.css" rel="stylesheet">
 
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -45,7 +46,6 @@
         <div class="col-12 col-xl-4 menu">
 
             <div class="row  align-items-center h-25 ">      
-
               <div class="col opciones bgGris1 h-100" key="plataformas">
                 <div class="row align-items-center justify-content-center h-100">
                     <div class="col-xl-12">
@@ -73,11 +73,17 @@
             </div>
             
             <div class="row align-items-center h-50  bgAzul">
-                <div class="col opciones h-100" key="campana">
+                <div class="col opciones h-100 campana" key="campana">
                     <div class="row align-items-center justify-content-center h-100">
                         <div class="col-xl-12">
-                            <h1>Grandes Ideas Futuros Posibles</h1>
-                            <hr class="horizontal rojo">
+                            <figure class="text-left"> 
+                                <img src="images/portada/imagotipo.png" alt="" class="img-fluid">
+                            </figure>
+                        </div>
+                        <div class="col-xl-12 h-50">
+                            <figure>
+                                <img src="images/portada/futuros-lineas.png" alt="" class="img-fluid">
+                            </figure>
                         </div>
                     </div>
                 </div>
@@ -96,7 +102,7 @@
                 <div class="col opciones bgGris4 h-100" key="ilustraciones">
                     <div class="row align-items-center justify-content-center h-100">
                         <div class="col-xl-12">
-                            <p>Ilustraciones</p>
+                            <p>Imaginación en trazos<br>ilustraciones</p>
                             <hr class="horizontal rojo">
                         </div>
                     </div>
@@ -106,7 +112,19 @@
         <div class="col-12 col-xl-8 bgContenido">
             <div id="portada" class="h-100">
                 <div class="row h-100 no-gutters align-items-center justify-content-center">
-                     <p class="titulo"><span class="diagonalRojo">\</span>Asegurar el mundo que queremos<br><strong>es crearlo por nosotros mismos</strong><span class="diagonalRojo">\</span></p>
+                     <div class="col-xl-12">
+                         <p class="titulo"><span class="diagonalRojo">\</span>Asegurar el mundo que queremos<br><strong>es crearlo por nosotros mismos</strong><span class="diagonalRojo">\</span></p>
+                        <div class="row align-items-center justify-content-end">
+                            <div class="col-xl-12">
+                                <figure class="text-center">
+                                    <img src="images/portada/futuros-lineas.png" alt="" class="img-fluid">
+                                </figure>
+                            </div>
+                        </div>
+                        
+                     </div>
+                     
+
                 </div>
             </div>
 
@@ -179,52 +197,147 @@
                     </div>
                 </div>
             </div>
-            <div id="quiz">
-                <div class="row h-100">
+            <div id="quiz" class="h-100">
+                <div class="row align-items-center justify-content-center h-100">
                     <div class="col-xl-12">
                         <div class="playbuzz" data-id="c4a1a344-8a83-4ce1-beb3-edab825cbca7" data-show-info="false"></div>
                     </div>
                 </div>
             </div>
-            <div id="imagenesCampana">
+            <div id="imagenesCampana" class="h-100">
                 <div class="row">
                     <div class="col-xl-12">c</div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-4">1</div>
-                    <div class="col-xl-4">2</div>
-                    <div class="col-xl-4">3</div>
+                    <div class="col-xl-4"></div>
+                    <div class="col-xl-4"></div>
+                    <div class="col-xl-4"></div>
                 </div>
             </div>
-            <div id="aceleradores">
-                <div class="row">
-                    <div class="col-xl-3">a</div>
-                    <div class="col-xl-3">a</div>
-                    <div class="col-xl-3">a</div>
+
+            <div id="aceleradores" class="h-100">
+                <div class="row no-gutters h-33">
+                    <div class="col-xl-4 bgA1 h-100">
+                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                            <div class="col-xl-12 h-25">
+                                <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-xl-4 bgA2 h-100">
+                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                            <div class="col-xl-12 h-25">
+                                <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-xl-4 bgA3 h-100">
+                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                            <div class="col-xl-12 h-25">
+                                <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-xl-3">a</div>
-                    <div class="col-xl-3">a</div>
-                    <div class="col-xl-3">a</div>
+                <div class="row no-gutters h-33">
+                    <div class="col-xl-4 bgA4 h-100">
+                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                            <div class="col-xl-12 h-25">
+                                <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-xl-4 bgA5 h-100">
+                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                            <div class="col-xl-12 h-25">
+                                <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-xl-4 bgA6 h-100">
+                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                            <div class="col-xl-12 h-25">
+                                <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-xl-3">a</div>
-                    <div class="col-xl-3">a</div>
-                    <div class="col-xl-3">a</div>
+                <div class="row no-gutters h-33">
+                    <div class="col-xl-4 bgA7 h-100">
+                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                            <div class="col-xl-12 h-25">
+                                <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-xl-4 bgA8 h-100">
+                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                            <div class="col-xl-12 h-25">
+                                <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-xl-4 bgA9 h-100">
+                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                            <div class="col-xl-12 h-25">
+                                <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="ilustraciones">
-                <div class="row">
-                    <div class="col-xl-3">x</div>
-                    <div class="col-xl-3">x</div>
-                    <div class="col-xl-3">x</div>
-                    <div class="col-xl-3">x</div>
+
+            <div id="ilustraciones" class="h-100">
+                <div class="row no-gutters  h-33"  >
+                    <div class="col-xl-4 bgIl1 h-100" data-toggle="modal" data-target="#modalIlustracion1">
+
+                    </div>
+                    <div class="col-xl-4 bgIl2 h-100" data-toggle="modal" data-target="#modalIlustracion2">
+
+                    </div>
+                    <div class="col-xl-4 bgIl3 h-100" data-toggle="modal" data-target="#modalIlustracion3">
+
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-xl-3">x</div>
-                    <div class="col-xl-3">x</div>
-                    <div class="col-xl-3">x</div>
-                    <div class="col-xl-3">x</div>
+                <div class="row no-gutters h-33"">
+                    <div class="col-xl-4 bgIl4 h-100" data-toggle="modal" data-target="#modalIlustracion4">
+
+                    </div>
+                    <div class="col-xl-4 bgIl5 h-100" data-toggle="modal" data-target="#modalIlustracion5">
+
+                    </div>
+                    <div class="col-xl-4 bgIl6 h-100" data-toggle="modal" data-target="#modalIlustracion6">
+
+                    </div>
+                </div>
+                <div class="row no-gutters h-33"">
+                    <div class="col-xl-4 bgIl7 h-100" data-toggle="modal" data-target="#modalIlustracion7">
+
+                    </div>
+                    <div class="col-xl-4 bgIl8 h-100" data-toggle="modal" data-target="#modalIlustracion8">
+
+                    </div>
+                    <div class="col-xl-4 bgIl9 h-100" data-toggle="modal" data-target="#modalIlustracion9">
+
+                    </div>
                 </div>
             </div>
           
@@ -317,5 +430,301 @@
 <!--Modals Aceleradores de cambio -->
 
 <!--Modals Ilustraciones -->
+<div class="modal fade" id="modalIlustracion1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <figure>
+                        <img src="images/ilustraciones/Ilustraciones_ArteCompleto_Pedro.png" alt="" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="contenido">blah blah blah blah</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalIlustracion2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <figure>
+                        <img src="images/ilustraciones/Ilustraciones_ArteCompleto_Alan.png" alt="" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="contenido">blah blah blah blah</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalIlustracion3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <figure>
+                        <img src="images/ilustraciones/Ilustraciones_Completo_Tania.png" alt="" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="contenido">blah blah blah blah</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dNEtlz6euZA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalIlustracion4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <figure>
+                        <img src="images/ilustraciones/Ilustraciones_ArteCompleto_Javier_B.png" alt="" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="contenido">blah blah blah blah</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalIlustracion5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <figure>
+                        <img src="images/ilustraciones/Ilustraciones_ArteCompleto_Saucedo.png" alt="" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="contenido">blah blah blah blah</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pgTfauagx6U?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalIlustracion6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <figure>
+                        <img src="images/ilustraciones/Ilustraciones_ArteCompleto_Javier_A.png" alt="" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="contenido">blah blah blah blah</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fLgVF59UFDM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalIlustracion7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <figure>
+                        <img src="images/ilustraciones/Ilustraciones_ArteCompleto_Meave.png" alt="" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="contenido">blah blah blah blah</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalIlustracion8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <figure>
+                        <img src="images/ilustraciones/Ilustraciones_ArteCompleto_Arturo.png" alt="" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="contenido">blah blah blah blah</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hywyOQxb02g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalIlustracion9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <figure>
+                        <img src="images/ilustraciones/Ilustraciones_ArteCompleto_Pichardo.png" alt="" class="img-fluid">
+                    </figure>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="contenido">blah blah blah blah</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <?php include 'footer.php';?>

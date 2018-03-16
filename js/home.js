@@ -6,6 +6,7 @@ jQuery(function($){
 	$("div#aceleradores").hide();
 	$("div#ilustraciones").hide();
 
+
 	$('div.opciones').click(function() {
 
 		var selector="#"+$(this).attr('key');
@@ -17,6 +18,7 @@ jQuery(function($){
 			$(selector).siblings().hide();
 			$(selector).show();
 			$("div.row div.opciones").siblings().removeClass("active");
+			$("div.row div.opciones.campana").removeClass("active");
 			$(this).addClass("active");
 		}
 
