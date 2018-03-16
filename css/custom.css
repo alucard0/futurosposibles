@@ -13,6 +13,11 @@ body {
 div.modal{
   color: #000;
 }
+
+div.modal div.modal-body p.titulo{
+  font-weight: 900;
+}
+
 div.modal-header {
   border-bottom: none;
 }
@@ -225,6 +230,15 @@ div#plataformas p.titulo span.diagonalRojo{
   background-position: center;
   background-repeat: no-repeat;
 }
+
+#modalG1 p.titulo,
+#modalG2 p.titulo,
+#modalG3 p.titulo{
+  text-align: center;
+  font-size: 60px;
+  color: rgb(18, 35, 95);
+}
+
 /*Quiz*/
 
 /*Ilustraciones*/
