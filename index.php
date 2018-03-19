@@ -46,7 +46,7 @@
         <div class="col-12 col-xl-4 menu">
 
             <div class="row  align-items-center h-25 ">      
-              <div class="col opciones bgGris1 h-100" key="plataformas">
+              <div class="col-xl-4 opciones bgGris1 h-100" key="plataformas">
                 <div class="row align-items-center justify-content-center h-100">
                     <div class="col-xl-12">
                         <p >Plataformas</p>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col opciones bgGris2 h-100" key="quiz">
+              <div class="col-xl-4 opciones bgGris2 h-100" key="quiz">
                 <div class="row align-items-center justify-content-center h-100">
                     <div class="col-xl-12">
                         <p>Portal a tu futuro</p>
@@ -62,10 +62,10 @@
                     </div>
                 </div>
               </div>
-              <div class="col opciones bgGris1 h-100" key="imagenesCampana">
+              <div class="col-xl-4 opciones bgGris1 h-100" key="imagenesCampana">
                 <div class="row align-items-center justify-content-center h-100">
                     <div class="col-xl-12">
-                        <p>Imágenes de Campaña</p>
+                        <p>Aplicaciones de campaña</p>
                         <hr class="horizontal rojo">
                     </div>
                 </div>
@@ -73,7 +73,7 @@
             </div>
             
             <div class="row align-items-center h-50  bgAzul">
-                <div class="col opciones h-100 campana" key="campana">
+                <div class="col-xl-12 opciones h-100 campana" key="campana">
                     <div class="row align-items-center justify-content-center h-100">
                         <div class="col-xl-12">
                             <figure class="text-left"> 
@@ -91,7 +91,7 @@
             </div>
 
             <div class="row align-items-center h-25">
-                <div class="col opciones bgGris3 h-100" key="aceleradores">
+                <div class="col-xl-6 opciones bgGris3 h-100" key="aceleradores">
                     <div class="row align-items-center justify-content-center h-100">
                         <div class="col-xl-12">
                             <p>Lo posible hoy</p>
@@ -99,7 +99,7 @@
                         </div> 
                     </div>
                 </div>
-                <div class="col opciones bgGris4 h-100" key="ilustraciones">
+                <div class="col-xl-6 opciones bgGris4 h-100" key="ilustraciones">
                     <div class="row align-items-center justify-content-center h-100">
                         <div class="col-xl-12">
                             <p>Imaginación en trazos<br>ilustraciones</p>
@@ -113,7 +113,7 @@
             <div id="portada" class="h-100">
                 <div class="row h-100 no-gutters align-items-center justify-content-center">
                      <div class="col-xl-12">
-                         <p class="titulo"><span class="diagonalRojo">\</span>Es un movimiento... que nos invita a imaginar y sobre todo, comenzar a construir un mundo mejor.<span class="diagonalRojo">\</span></p>
+                         <p class="titulo"><span class="diagonalRojo">\</span>Es un movimiento que nos invita a imaginar y sobre todo a construir un mundo mejor.<span class="diagonalRojo">\</span></p>
                          <!--
                         <div class="row align-items-center justify-content-end">
                             <div class="col-xl-12">
@@ -154,7 +154,7 @@
                         <div class="row align-items-end justify-content-center h-100 no-gutters">
                             <div class="col-xl-12 h-25">
                                 <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
-                                    <p class="titulo"><span class="diagonalRojo">\</span>Los Futuros</p>
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Los futuros</p>
                                 </div>
                             </div> 
                         </div>
@@ -349,7 +349,7 @@
 
 <!--Modals Campaña -->
 <div class="modal fade" id="modalG1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -375,7 +375,7 @@
 </div>
 
 <div class="modal fade" id="modalG2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -401,7 +401,7 @@
 </div>
 
 <div class="modal fade" id="modalG3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -567,7 +567,7 @@
 
 <!--Modals Aceleradores de cambio -->
 
-<div class="modal fade" id="modalA1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalA1" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -601,7 +601,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalA2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalA2" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -635,7 +635,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalA3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalA3" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -669,7 +669,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalA4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalA4" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -703,7 +703,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalA5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalA5" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -737,7 +737,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalA6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalA6" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -771,7 +771,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalA7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalA7" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -805,7 +805,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalA8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalA8" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -839,7 +839,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalA9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalA9" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -874,11 +874,11 @@
 </div>
 
 <!--Modals Ilustraciones -->
-<div class="modal fade" id="modalIlustracion1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalIlustracion1" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('8No5Wy0mq84')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -898,7 +898,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                        <div id="player0"></div>
                     </div>
                 </div>
             </div>
@@ -908,11 +909,11 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalIlustracion2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalIlustracion2" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('21a1bTVwjdo')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -932,7 +933,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!--<iframe width="560" height="215" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                        <div id="player1"></div>
                     </div>
                 </div>
             </div>
@@ -942,11 +944,11 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalIlustracion3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalIlustracion3" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"  onclick="stopVideo('dNEtlz6euZA')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -966,7 +968,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dNEtlz6euZA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/dNEtlz6euZA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                        <div id="player2"></div>
                     </div>
                 </div>
             </div>
@@ -976,11 +979,11 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalIlustracion4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalIlustracion4" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('21a1bTVwjdo')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -1000,7 +1003,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                        <div id="player3"></div>
                     </div>
                 </div>
             </div>
@@ -1010,11 +1014,11 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalIlustracion5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalIlustracion5" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('pgTfauagx6U')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -1034,7 +1038,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pgTfauagx6U?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/pgTfauagx6U?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                        <div id="player4"></div>
                     </div>
                 </div>
             </div>
@@ -1044,11 +1049,11 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalIlustracion6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalIlustracion6" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('fLgVF59UFDM')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -1068,7 +1073,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/fLgVF59UFDM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/fLgVF59UFDM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                        <div id="player5"></div>
                     </div>
                 </div>
             </div>
@@ -1078,11 +1084,11 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalIlustracion7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalIlustracion7" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('21a1bTVwjdo')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -1102,7 +1108,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                        <div id="player6"></div>
                     </div>
                 </div>
             </div>
@@ -1112,11 +1119,11 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalIlustracion8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalIlustracion8" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('Re7i-GkmZSI')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -1136,7 +1143,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/hywyOQxb02g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/Re7i-GkmZSI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                        <div id="player7"></div>
                     </div>
                 </div>
             </div>
@@ -1146,11 +1154,11 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalIlustracion9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="modalIlustracion9" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('21a1bTVwjdo')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -1170,7 +1178,8 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                        <div id="player8"></div>
                     </div>
                 </div>
             </div>

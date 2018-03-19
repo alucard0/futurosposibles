@@ -34,10 +34,73 @@
 
     <!-- Theme JavaScript -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	
+	<!-- Tweenmax -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
 
 	<script src="js/home.js"></script>
-	<script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='https://embed.playbuzz.com/sdk.js';fjs.parentNode.insertBefore(js,fjs);}(document,'script','playbuzz-sdk'));
+	<script async>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='https://embed.playbuzz.com/sdk.js';fjs.parentNode.insertBefore(js,fjs);}(document,'script','playbuzz-sdk'));
 	</script>
+	<script>
+    // 2. This code loads the IFrame Player API code asynchronously.
+    var tag = document.createElement('script');
+
+    tag.src = "https://www.youtube.com/iframe_api";
+    var firstScriptTag = document.getElementsByTagName('script')[0];
+    firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+    var videos=['8No5Wy0mq84','21a1bTVwjdo','dNEtlz6euZA','21a1bTVwjdo','pgTfauagx6U','fLgVF59UFDM','21a1bTVwjdo','Re7i-GkmZSI','21a1bTVwjdo'];
+    players = new Array();
+
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+
+    function onYouTubeIframeAPIReady() {
+
+        videos.forEach(function(idVideo, indice) {  
+            player = new YT.Player('player'+indice, {
+              height: '215',
+              width: '560',
+              playerVars:{
+                'autoplay': 0,
+                'controls': 0, 
+                'autohide': 0,
+                'showinfo' : 0, // <- This part here
+                'wmode': 'opaque',
+                'rel': 0,
+                'loop': 0
+              },
+              videoId: idVideo,
+              events: {
+                'onReady': onPlayerReady
+              }
+            });
+            players.push(player);
+        });
+
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.stopVideo();
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+
+      function stopVideo(videoActual) {
+        
+        players.forEach(function(player){
+            if(player.getVideoData()['video_id']==videoActual){
+                player.stopVideo();
+            }
+        });
+
+      }
+    </script>
 
 </body>
 </html>
