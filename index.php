@@ -49,7 +49,7 @@
               <div class="col-xl-4 opciones bgGris1 h-100" key="plataformas">
                 <div class="row align-items-center justify-content-center h-100">
                     <div class="col-xl-12">
-                        <p >Plataformas</p>
+                        <p >Plataforma</p>
                         <hr class="horizontal rojo"> 
                     </div>
                 </div>
@@ -65,7 +65,7 @@
               <div class="col-xl-4 opciones bgGris1 h-100" key="imagenesCampana">
                 <div class="row align-items-center justify-content-center h-100">
                     <div class="col-xl-12">
-                        <p>Aplicaciones de campaña</p>
+                        <p>Aplicación de campaña</p>
                         <hr class="horizontal rojo">
                     </div>
                 </div>
@@ -91,7 +91,7 @@
             </div>
 
             <div class="row align-items-center h-25">
-                <div class="col-xl-6 opciones bgGris3 h-100" key="aceleradores">
+                <div class="col-xl-6 opciones bgGris3 h-100" key="aceleradores" data-toggle="modal" data-target="#modalM1">
                     <div class="row align-items-center justify-content-center h-100">
                         <div class="col-xl-12">
                             <p>Lo posible hoy</p>
@@ -99,7 +99,7 @@
                         </div> 
                     </div>
                 </div>
-                <div class="col-xl-6 opciones bgGris4 h-100" key="ilustraciones">
+                <div class="col-xl-6 opciones bgGris4 h-100" key="ilustraciones" data-toggle="modal" data-target="#modalM2">
                     <div class="row align-items-center justify-content-center h-100">
                         <div class="col-xl-12">
                             <p>Imaginación en trazos<br>ilustraciones</p>
@@ -113,7 +113,7 @@
             <div id="portada" class="h-100">
                 <div class="row h-100 no-gutters align-items-center justify-content-center">
                      <div class="col-xl-12">
-                         <p class="titulo"><span class="diagonalRojo">\</span>Es un movimiento que nos invita a imaginar y sobre todo a construir un mundo mejor.<span class="diagonalRojo">\</span></p>
+                         <p class="titulo"><span class="diagonalRojo">\</span>Movimiento que nos invita a imaginar, pero, sobre todo, a construir un mundo mejor.<span class="diagonalRojo">\</span></p>
                          <!--
                         <div class="row align-items-center justify-content-end">
                             <div class="col-xl-12">
@@ -207,20 +207,37 @@
                 </div>
             </div>
             <div id="imagenesCampana" class="h-100">
-                <div class="row">
-                    <div class="col-xl-12">c</div>
+
+                <div class="row no-gutters h-50">
+                    <div class="col-xl-4"  data-toggle="modal" data-target="#modalAC1">
+                        <figure>
+                            <img src="images/aplicacion/Medios_Menu_Prepa.png" alt="" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="col-xl-4"  data-toggle="modal" data-target="#modalAC2">
+                        <figure>
+                            <img src="images/aplicacion/Medios_Menu_Lic.png" alt="" class="img-fluid">
+                        </figure>
+                    </div>
+                    <div class="col-xl-4"  data-toggle="modal" data-target="#modalAC3">
+                        <figure>
+                            <img src="images/aplicacion/Medios_Menu_Posg.png" alt="" class="img-fluid">
+                        </figure>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-xl-4"></div>
-                    <div class="col-xl-4"></div>
-                    <div class="col-xl-4"></div>
+                <div class="row no-gutters h-50">
+                    <div class="col-xl-12"  data-toggle="modal" data-target="#modalAC4">
+                        <figure>
+                            <img src="images/aplicacion/Medios_Menu_Gen.png" alt="" class="img-fluid">
+                        </figure>
+                    </div>
                 </div>
             </div>
 
             <div id="aceleradores" class="h-100">
                 <div class="row no-gutters h-33">
                     <div class="col-xl-4 bgA1 h-100" data-toggle="modal" data-target="#modalA1">
-                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                        <div class="row align-items-end justify-content-center h-100 no-gutters">
                             <div class="col-xl-12 h-25">
                                 <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
                                     <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
@@ -229,19 +246,19 @@
                         </div>
                     </div>
                     <div class="col-xl-4 bgA2 h-100" data-toggle="modal" data-target="#modalA2">
-                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                        <div class="row align-items-end justify-content-center h-100 no-gutters">
                             <div class="col-xl-12 h-25">
                                 <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
-                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Seguros de boda<span class="diagonalRojo">\</span></p>
                                 </div>
                             </div> 
                         </div>
                     </div>
                     <div class="col-xl-4 bgA3 h-100" data-toggle="modal" data-target="#modalA3">
-                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                        <div class="row align-items-end justify-content-center h-100 no-gutters">
                             <div class="col-xl-12 h-25">
                                 <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
-                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Planta de cal<span class="diagonalRojo">\</span></p>
                                 </div>
                             </div> 
                         </div>
@@ -249,28 +266,28 @@
                 </div>
                 <div class="row no-gutters h-33">
                     <div class="col-xl-4 bgA4 h-100" data-toggle="modal" data-target="#modalA4">
-                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                        <div class="row align-items-end justify-content-center h-100 no-gutters">
                             <div class="col-xl-12 h-25">
                                 <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
-                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                    <p class="titulo"><span class="diagonalRojo">\</span>App Lasallista<span class="diagonalRojo">\</span></p>
                                 </div>
                             </div> 
                         </div>
                     </div>
                     <div class="col-xl-4 bgA5 h-100" data-toggle="modal" data-target="#modalA5">
-                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                        <div class="row align-items-end justify-content-center h-100 no-gutters">
                             <div class="col-xl-12 h-25">
                                 <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
-                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Biocombustible<span class="diagonalRojo">\</span></p>
                                 </div>
                             </div> 
                         </div>
                     </div>
                     <div class="col-xl-4 bgA6 h-100" data-toggle="modal" data-target="#modalA6">
-                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                        <div class="row align-items-end justify-content-center h-100 no-gutters">
                             <div class="col-xl-12 h-25">
                                 <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
-                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Consejera INE<span class="diagonalRojo">\</span></p>
                                 </div>
                             </div> 
                         </div>
@@ -278,28 +295,28 @@
                 </div>
                 <div class="row no-gutters h-33">
                     <div class="col-xl-4 bgA7 h-100" data-toggle="modal" data-target="#modalA7">
-                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                        <div class="row align-items-end justify-content-center h-100 no-gutters">
                             <div class="col-xl-12 h-25">
                                 <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
-                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                    <p class="titulo vehiculo"><span class="diagonalRojo">\</span>Autos eléctricos <span class="diagonalRojo">\</span></p>
                                 </div>
                             </div> 
                         </div>
                     </div>
                     <div class="col-xl-4 bgA8 h-100" data-toggle="modal" data-target="#modalA8">
-                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                        <div class="row align-items-end justify-content-center h-100 no-gutters">
                             <div class="col-xl-12 h-25">
                                 <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
-                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                    <p class="titulo"><span class="diagonalRojo">\</span>Viaje a La NASA<span class="diagonalRojo">\</span></p>
                                 </div>
                             </div> 
                         </div>
                     </div>
                     <div class="col-xl-4 bgA9 h-100" data-toggle="modal" data-target="#modalA9">
-                        <div class="row align-items-center justify-content-center h-100 no-gutters">
+                        <div class="row align-items-end justify-content-center h-100 no-gutters">
                             <div class="col-xl-12 h-25">
                                 <div class="row align-items-center justify-content-center no-gutters h-100 bgTitulo">
-                                    <p class="titulo"><span class="diagonalRojo">\</span>Prótesis 3D<span class="diagonalRojo">\</span></p>
+                                    <p class="titulo unicel"><span class="diagonalRojo">\</span>Unicel biodegradable<span class="diagonalRojo">\</span></p>
                                 </div>
                             </div> 
                         </div>
@@ -347,6 +364,58 @@
     </div>
 </section>
 
+<!--Modals Menu-->
+<div class="modal fade" id="modalM1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="titulo">Lo posible hoy</p>
+                            <p class="contenido">El futuro se construye día a día, en este espacio encontrarán historias de lasallistas que, con sus acciones, están propiciando el cambio, impactando positivamente y detonando la transformación social.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalM2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="titulo">Imaginación en trazos</p>
+                            <p class="contenido">Los escenarios de futuro planteados e ilustrados por jóvenes mexicanos se alojan en esta sección, en donde podrán conocer la descripción del artista e incluso descargarlas para usarlas como fondo en todos sus dispositivos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <!--Modals Campaña -->
 <div class="modal fade" id="modalG1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -426,45 +495,7 @@
   </div>
 </div>
 
-<div class="modal fade" id="modalLicenciatura" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="modal fade" id="modalPosgrado" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 <!--Modals Plataforma -->
 <div class="modal fade" id="modalP1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
@@ -486,7 +517,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">futurosposibles.mx</p>
-                            <p class="contenido">Es un ecosistema digital, divertido e inspirador, en el que aspirantes, integrantes de nuestra comunidad y la sociedad en general encontrarán.</p>
+                            <p class="contenido">Es un ecosistema digital, divertido e inspirador en el que aspirantes/integrantes de nuestra comunidad y la sociedad en general encontrarán un espacio de oportunidad para las ideas y el diálogo.</p>
                         </div>
                     </div>
                 </div>
@@ -564,14 +595,301 @@
 </div>
 
 <!--Modals Imagenes de campaña -->
+<div class="modal fade" id="modalAC1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div id="myCarousel" class="carousel slide">
+                    <!-- main slider carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item carousel-item" data-slide-number="0">
+                                <img src="images/aplicacion/completas/MediosPrepa_Anuncio1.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="1">
+                                <img src="images/aplicacion/completas/MediosPrepa_Anuncio2.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="2">
+                                <img src="images/aplicacion/completas/MediosPrepa_Bus.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="3">
+                                <img src="images/aplicacion/completas/MediosPrepa_Montado.png" class="img-fluid">
+                            </div>
+                        </div>
+                    <!-- main slider carousel nav controls -->
 
+
+                        <ul class="carousel-indicators list-inline">
+                            <li class="list-inline-item active">
+                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel">
+                                    <img src="images/aplicacion/miniaturas/MediosPrepa_Anuncio1_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel">
+                                    <img src="images/aplicacion/miniaturas/MediosPrepa_Anuncio2_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel">
+                                    <img src="images/aplicacion/miniaturas/MediosPrepa_Bus_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel">
+                                    <img src="images/aplicacion/miniaturas/MediosPrepa_Montado_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="titulo">Prepa: esperanza y sueños</p>
+                            <p class="contenido">“Imagina un futuro distinto”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalAC2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div id="myCarousel2" class="carousel slide">
+                    <!-- main slider carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item carousel-item" data-slide-number="0">
+                                <img src="images/aplicacion/completas/MediosLic_Anuncio_1.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="1">
+                                <img src="images/aplicacion/completas/MediosLic_Anuncio_2.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="2">
+                                <img src="images/aplicacion/completas/MediosLic_Bus.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="3">
+                                <img src="images/aplicacion/completas/MediosLic_Montado.png" class="img-fluid">
+                            </div>
+
+                        </div>
+                    <!-- main slider carousel nav controls -->
+
+
+                        <ul class="carousel-indicators list-inline">
+                            <li class="list-inline-item active">
+                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel2">
+                                    <img src="images/aplicacion/miniaturas/MediosLic_Anuncio_1_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel2">
+                                    <img src="images/aplicacion/miniaturas/MediosLic_Anuncio_2_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel2">
+                                    <img src="images/aplicacion/miniaturas/MediosLic_bus_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-3" data-slide-to="3" data-target="#myCarousel2">
+                                    <img src="images/aplicacion/miniaturas/MediosLic_Montado_Btn.png" class="img-fluid">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="titulo">Licenciatura:  inspiración y creación</p>
+                            <p class="contenido">“Materializa tus sueños e ideas”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalAC3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div id="myCarousel3" class="carousel slide">
+                    <!-- main slider carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item carousel-item" data-slide-number="0">
+                                <img src="images/aplicacion/completas/MediosPosg_1.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="1">
+                                <img src="images/aplicacion/completas/MediosPosg_2.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="2">
+                                <img src="images/aplicacion/completas/MediosPosg_Montado.png" class="img-fluid">
+                            </div>
+                        </div>
+                    <!-- main slider carousel nav controls -->
+
+
+                        <ul class="carousel-indicators list-inline">
+                            <li class="list-inline-item active">
+                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#myCarousel3">
+                                    <img src="images/aplicacion/miniaturas/MediosPosg_1_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-1" data-slide-to="1" data-target="#myCarousel3">
+                                    <img src="images/aplicacion/miniaturas/MediosPosg_2_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-2" data-slide-to="2" data-target="#myCarousel3">
+                                    <img src="images/aplicacion/miniaturas/MediosPosg_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="titulo">Posgrado: movimiento, aceleración, materialización</p>
+                            <p class="contenido">“Transforma tu entorno, sueña un futuro brillante”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalAC4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div id="myCarousel4" class="carousel slide">
+                    <!-- main slider carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item carousel-item" data-slide-number="0">
+                                <img src="images/aplicacion/completas/MediosGen_Stand1.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="1">
+                                <img src="images/aplicacion/completas/MediosGen_Stand2.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="2">
+                                <img src="images/aplicacion/completas/MediosGen_Metrobus1.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="3">
+                                <img src="images/aplicacion/completas/MediosGen_Metrobus2.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="4">
+                                <img src="images/aplicacion/completas/MediosGen_Pendon1.png" class="img-fluid">
+                            </div>
+                            <div class="item carousel-item" data-slide-number="5">
+                                <img src="images/aplicacion/completas/MediosGen_Pendon2.png" class="img-fluid">
+                            </div>
+                        </div>
+                    <!-- main slider carousel nav controls -->
+
+
+                        <ul class="carousel-indicators list-inline">
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-4" class="selected" data-slide-to="0" data-target="#myCarousel4">
+                                    <img src="images/aplicacion/miniaturas/MediosGen_Stand1_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-5" data-slide-to="1" data-target="#myCarousel4">
+                                    <img src="images/aplicacion/miniaturas/MediosGen_Stand2_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item active">
+                                <a id="carousel-selector-0" data-slide-to="2" data-target="#myCarousel4">
+                                    <img src="images/aplicacion/miniaturas/MediosGen_Metrobus_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-1" data-slide-to="3" data-target="#myCarousel4">
+                                    <img src="images/aplicacion/miniaturas/MediosGen_Metrobusq_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-2" data-slide-to="4" data-target="#myCarousel4">
+                                    <img src="images/aplicacion/miniaturas/MediosGen_Pendon1_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a id="carousel-selector-3" data-slide-to="5" data-target="#myCarousel4">
+                                    <img src="images/aplicacion/miniaturas/MediosGen_Pendon2_Miniatura.png" class="img-fluid">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-6">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="titulo">Inspira, crea, transforma</p>
+                            <p class="contenido">...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <!--Modals Aceleradores de cambio -->
 
 <div class="modal fade" id="modalA1" tabindex="-1" role="dialog" data-backdrop="static" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('PJ9lL5vCXZc')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -586,12 +904,13 @@
                 <div class="col-xl-6">
                     <div class="row">
                         <div class="col-xl-12">
-                            <p class="titulo">Desarrolla programa para prótesis y gana una beca de posgrado</p>
+                            <p class="titulo">Programa para prótesis y gana una beca de posgrado</p>
                             <p class="contenido">Sandra Bejarano, egresada de Ingeniería Biomédica, desarrolla un sistema de terapia para los pacientes que requerirán prótesis por la pérdida de una extremidad.</p>
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+                        <div id="player9"></div>
                     </div>
                 </div>
             </div>
@@ -605,7 +924,7 @@
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('IMUleD78BjI')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -625,7 +944,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <div id="player10"></div>
                     </div>
                 </div>
             </div>
@@ -639,7 +958,7 @@
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('_4oouUxGzWA')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -659,7 +978,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <div id="player11"></div>
                     </div>
                 </div>
             </div>
@@ -673,7 +992,7 @@
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('V4hsb0TZUjA')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -693,7 +1012,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <div id="player12"></div>
                     </div>
                 </div>
             </div>
@@ -707,7 +1026,7 @@
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('YjC6E6MBNVA')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -727,7 +1046,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <div id="player13"></div>
                     </div>
                 </div>
             </div>
@@ -741,7 +1060,7 @@
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('a7JaRGE7uz0')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -761,7 +1080,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <div id="player14"></div>
                     </div>
                 </div>
             </div>
@@ -795,7 +1114,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <figure><img src="images/aceleradores/minibajatw.jpg" alt="" class="img-fluid"></figure>
                     </div>
                 </div>
             </div>
@@ -809,7 +1128,7 @@
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('TpcYSuQq3Og')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -829,7 +1148,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <div id="player16"></div>
                     </div>
                 </div>
             </div>
@@ -843,7 +1162,7 @@
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('TGu1dqVpjsk')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -863,7 +1182,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8No5Wy0mq84?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <div id="player15"></div>
                     </div>
                 </div>
             </div>
