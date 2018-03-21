@@ -1301,10 +1301,32 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6">
-                    <figure>
-                        <img src="images/ilustraciones/Ilustraciones_ArteCompleto_Javier_B.png" alt="" class="img-fluid">
-                    </figure>
+                        <div id="myCarousel5" class="carousel slide">
+                        <!-- main slider carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item carousel-item" data-slide-number="0">
+                                    <img src="images/ilustraciones/Ilustraciones_ArteCompleto_Javier_B.png" class="img-fluid">
+                                </div>
+                                <div class="item carousel-item" data-slide-number="1">
+                                    <img src="images/ilustraciones/lasalle_transporte1.gif" class="img-fluid">
+                                </div>
+                            </div>
+                        <!-- main slider carousel nav controls -->
+                            <ul class="carousel-indicators list-inline">
+                                <li class="list-inline-item">
+                                    <a id="carousel-selector-4" class="selected" data-slide-to="0" data-target="#myCarousel5">
+                                        <img src="images/ilustraciones/miniaturas/MiniaturasCiudad_Final.png" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a id="carousel-selector-5" data-slide-to="1" data-target="#myCarousel5">
+                                        <img src="images/ilustraciones/miniaturas/MiniaturasCiudad_Boceto.png" class="img-fluid">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                 </div>
+
                 <div class="col-xl-6">
                     <div class="row">
                         <div class="col-xl-12">
@@ -1472,9 +1494,30 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6">
-                    <figure>
-                        <img src="images/ilustraciones/Ilustraciones_ArteCompleto_Pichardo.png" alt="" class="img-fluid">
-                    </figure>
+                    <div id="myCarousel6" class="carousel slide">
+                        <!-- main slider carousel items -->
+                            <div class="carousel-inner">
+                                <div class="active item carousel-item" data-slide-number="0">
+                                    <img src="images/ilustraciones/Ilustraciones_ArteCompleto_Pichardo.png" class="img-fluid">
+                                </div>
+                                <div class="item carousel-item" data-slide-number="1">
+                                    <img src="images/ilustraciones/giflasalle1.gif" class="img-fluid">
+                                </div>
+                            </div>
+                        <!-- main slider carousel nav controls -->
+                            <ul class="carousel-indicators list-inline">
+                                <li class="list-inline-item">
+                                    <a id="carousel-selector-4" class="selected" data-slide-to="0" data-target="#myCarousel6">
+                                        <img src="images/ilustraciones/miniaturas/MiniaturasQuimica_Final.png" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a id="carousel-selector-5" data-slide-to="1" data-target="#myCarousel6">
+                                        <img src="images/ilustraciones/miniaturas/MiniaturasQuimica_Boceto.png" class="img-fluid">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                 </div>
                 <div class="col-xl-6">
                     <div class="row">

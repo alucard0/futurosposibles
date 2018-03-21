@@ -485,7 +485,9 @@ div#quiz p.reload{
 #myCarousel .list-inline,
 #myCarousel2 .list-inline,
 #myCarousel3 .list-inline,
-#myCarousel4 .list-inline  {
+#myCarousel4 .list-inline,
+#myCarousel5 .list-inline,
+#myCarousel6 .list-inline   {
     white-space:nowrap;
     
 }
@@ -493,7 +495,9 @@ div#quiz p.reload{
 #myCarousel .carousel-indicators,
 #myCarousel2 .carousel-indicators,
 #myCarousel3 .carousel-indicators,
-#myCarousel4 .carousel-indicators {
+#myCarousel4 .carousel-indicators,
+#myCarousel5 .carousel-indicators,
+#myCarousel6 .carousel-indicators {
     position: static;
     left: initial;
     width: initial;
@@ -503,7 +507,9 @@ div#quiz p.reload{
 #myCarousel .carousel-indicators > li,
 #myCarousel2 .carousel-indicators > li,
 #myCarousel3 .carousel-indicators > li,
-#myCarousel4 .carousel-indicators > li{
+#myCarousel4 .carousel-indicators > li,
+#myCarousel5 .carousel-indicators > li,
+#myCarousel6 .carousel-indicators > li{
     width: initial;
     height: initial;
     text-indent: initial;
@@ -512,7 +518,9 @@ div#quiz p.reload{
 #myCarousel .carousel-indicators > li.active img,
 #myCarousel2 .carousel-indicators > li.active img,
 #myCarousel3 .carousel-indicators > li.active img,
-#myCarousel4 .carousel-indicators > li.active img {
+#myCarousel4 .carousel-indicators > li.active img,
+#myCarousel5 .carousel-indicators > li.active img,
+#myCarousel6 .carousel-indicators > li.active img {
     opacity: 0.7;
 }
 
