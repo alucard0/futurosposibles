@@ -428,7 +428,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">La dualidad</p>
-                            <p class="contenido">Representa el hoy y el mañana, la tradición y el futuro, la mente y el cuerpo, la imaginación y la acción, los valores y la disrupción, lo conocido y lo desconocido…el equilibrio.</p>
+                            <p class="contenido">Representa el hoy y el mañana, la tradición y el futuro, la mente y el cuerpo, la imaginación y la acción, los valores y la disrupción, lo conocido y lo desconocido…El equilibrio</p>
                         </div>
                     </div>
                 </div>
@@ -544,11 +544,8 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">Provocando ideas</p>
-                            <p class="contenido">Espacio de expresión que invita a sumarse a una comunidad comprometida, dispuesta a ofrecer ideas y soluciones a retos sociales, con un solo fin: el bien común.</p>
-
-                            <p class="contenido">
-                                Quienes se unen a la comunidad pueden postear ideas, opiniones, comentar las de otros, compartir videos, imágenes... provocar.
-                            </p>
+                            <p class="contenido">Espacio de expresión que invita a sumarse a una comunidad comprometida, dispuesta a ofrecer ideas y soluciones a retos sociales, con un solo fin: el bien común.
+                            Quienes se unen a la comunidad pueden postear ideas y opiniones y comentar las de otros, compartir videos, imágenes... Provocar.</p>
                         </div>
                     </div>
                 </div>
@@ -936,7 +933,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">Un sí asegurado</p>
-                            <p class="contenido">Estudiantes de administración crean un seguro para bodas y obtienen el 2do lugar del concurso Santander Innovation Challenge.</p>
+                            <p class="contenido">Estudiantes de Administración crean un seguro para bodas y obtienen el 2do lugar del concurso Santander Innovation Challenge.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -1038,7 +1035,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">Convierte lirio en biocombustible</p>
-                            <p class="contenido">José Alberto Espejel, estudiante de ingeniería ambiental, logró convertir en alcohol etílico la planta considerada una plaga en lagos y canales.</p>
+                            <p class="contenido">José Alberto Espejel, estudiante de Ingeniería Ambiental, logró convertir el lirio acuático (planta considerada una plaga en lagos y canales) en combustible</p>
                         </div>
                     </div>
                     <div class="row">
@@ -1072,7 +1069,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">Igualdad y oportunidades reales para las mujeres</p>
-                            <p class="contenido">Paola Ravel, egresada de Derecho en La Salle, rompe paradigmas al convertirse en consejera del INE.</p>
+                            <p class="contenido">Paola Ravel, egresada de Derecho por La Salle, rompió paradigmas al convertirse en consejera del INE</p>
                         </div>
                     </div>
                     <div class="row">
@@ -1106,7 +1103,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">Acelerando la movilidad</p>
-                            <p class="contenido">Estudiantes de ingeniería crean desde cero vehículos eléctricos y todo terreno.</p>
+                            <p class="contenido">Estudiantes de Ingeniería crean desde cero vehículos eléctricos y todo terreno.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -1244,7 +1241,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">Planos existenciales</p>
-                            <p class="contenido">La educación y la ciencia van de la mano en la creación de un futuro brillante. Imaginemos y demos vida a los edificios verdes, los autos autónomos, los filtros anticontaminación.</p>
+                            <p class="contenido">La educación y la ciencia van de la mano en la creación de un futuro brillante. Imaginemos y demos vida a los edificios verdes, los autos autónomos y los filtros anticontaminación.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -1312,7 +1309,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">Movilidad al futuro</p>
-                            <p class="contenido">Hay una premisa segura: el futuro pertenece a aquellos que están dispuestos a cambiarlo. 55 años es tiempo suficiente para darle forma a nuestras ideas más grandes.</p>
+                            <p class="contenido">Hay una premisa segura: el futuro le pertenece a aquellos que están dispuestos a cambiarlo, 55 años ha sido tiempo suficiente para darle forma a nuestras más grandes ideas.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -1346,7 +1343,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">NOMOI</p>
-                            <p class="contenido">El espíritu de hacer lo correcto, NOMOI. El derecho, regresa al punto de origen, en donde lo más importante es la equidad y la justicia, la relación sincera entre seres humanos.</p>
+                            <p class="contenido">El espíritu de hacer lo correcto, NOMOI. El derecho regresa al punto de origen, en donde lo más importante es la equidad y la justicia, la relación sincera entre seres humanos.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -1415,7 +1412,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">Proyección del porvenir</p>
-                            <p class="contenido">La arquitectura en el 2050, orgánica, verde, iluminada e inteligente. Modelamos espacios directamente desde las terminaciones neurales, sin interfaces físicas.  El espacio virtual se mezcla e interactúa con el real.</p>
+                            <p class="contenido">La arquitectura en el 2050: orgánica, verde, iluminada e inteligente. Modelamos espacios directamente desde las terminaciones neurales, sin interfaces físicas. El espacio virtual se mezcla e interactúa con el real.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -1449,7 +1446,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">Moneda de la libertad</p>
-                            <p class="contenido">La libertad, el bien común, la equidad y el trabajo en equipo, son las premisas de la moneda que regulará las transacciones de la economía mundial.</p>
+                            <p class="contenido">La libertad, el bien común, la equidad y el trabajo en equipo son las premisas de la moneda que regulará las transacciones de la economía mundial.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -1483,7 +1480,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">Enlaces y reacciones</p>
-                            <p class="contenido">El futuro influenciado por la química. Un mundo en armonía con sus hábitos, la ciudad y la naturaleza, es posible gracias al impacto de las ciencias químicas en el ambiente, la alimentación y la farmacéutica.</p>
+                            <p class="contenido">El futuro influenciado por la química: un mundo en armonía con sus hábitos, la ciudad y la naturaleza es posible gracias al impacto de las ciencias químicas en el ambiente, la alimentación y la farmacéutica.</p>
                         </div>
                     </div>
                     <div class="row">
