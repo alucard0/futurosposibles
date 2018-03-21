@@ -203,33 +203,29 @@
                 <div class="row align-items-center justify-content-center h-100">
                     <div class="col-xl-12">
                         <div class="playbuzz" data-id="c4a1a344-8a83-4ce1-beb3-edab825cbca7" data-show-info="false"></div>
+
+                    </div>
+                    <div class="col-xl-4">
+                        <p class="reload">Recargar</p>
                     </div>
                 </div>
             </div>
             <div id="imagenesCampana" class="h-100">
 
                 <div class="row no-gutters h-50">
-                    <div class="col-xl-4"  data-toggle="modal" data-target="#modalAC1">
-                        <figure>
-                            <img src="images/aplicacion/Medios_Menu_Prepa.png" alt="" class="img-fluid">
-                        </figure>
+                    <div class="col-xl-4 bgAC1"  data-toggle="modal" data-target="#modalAC1">
+
                     </div>
-                    <div class="col-xl-4"  data-toggle="modal" data-target="#modalAC2">
-                        <figure>
-                            <img src="images/aplicacion/Medios_Menu_Lic.png" alt="" class="img-fluid">
-                        </figure>
+                    <div class="col-xl-4 bgAC2"  data-toggle="modal" data-target="#modalAC2">
+
                     </div>
-                    <div class="col-xl-4"  data-toggle="modal" data-target="#modalAC3">
-                        <figure>
-                            <img src="images/aplicacion/Medios_Menu_Posg.png" alt="" class="img-fluid">
-                        </figure>
+                    <div class="col-xl-4 bgAC3"  data-toggle="modal" data-target="#modalAC3">
+
                     </div>
                 </div>
                 <div class="row no-gutters h-50">
-                    <div class="col-xl-12"  data-toggle="modal" data-target="#modalAC4">
-                        <figure>
-                            <img src="images/aplicacion/Medios_Menu_Gen.png" alt="" class="img-fluid">
-                        </figure>
+                    <div class="col-xl-12 bgAC4"  data-toggle="modal" data-target="#modalAC4">
+
                     </div>
                 </div>
             </div>
@@ -1232,7 +1228,7 @@
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('21a1bTVwjdo')">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('hywyOQxb02g')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -1252,7 +1248,6 @@
                         </div>
                     </div>
                     <div class="row">
-                        <!--<iframe width="560" height="215" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
                         <div id="player1"></div>
                     </div>
                 </div>
@@ -1287,7 +1282,6 @@
                         </div>
                     </div>
                     <div class="row">
-                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/dNEtlz6euZA?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
                         <div id="player2"></div>
                     </div>
                 </div>
@@ -1302,7 +1296,7 @@
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('21a1bTVwjdo')">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('hywyOQxb02g')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -1322,7 +1316,6 @@
                         </div>
                     </div>
                     <div class="row">
-                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
                         <div id="player3"></div>
                     </div>
                 </div>
@@ -1357,7 +1350,6 @@
                         </div>
                     </div>
                     <div class="row">
-                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/pgTfauagx6U?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
                         <div id="player4"></div>
                     </div>
                 </div>
@@ -1392,7 +1384,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/fLgVF59UFDM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
+
                         <div id="player5"></div>
                     </div>
                 </div>
@@ -1407,7 +1399,7 @@
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('21a1bTVwjdo')">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('hywyOQxb02g')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -1427,7 +1419,6 @@
                         </div>
                     </div>
                     <div class="row">
-                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
                         <div id="player6"></div>
                     </div>
                 </div>
@@ -1462,7 +1453,6 @@
                         </div>
                     </div>
                     <div class="row">
-                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/Re7i-GkmZSI?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
                         <div id="player7"></div>
                     </div>
                 </div>
@@ -1477,7 +1467,7 @@
   <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('21a1bTVwjdo')">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" onclick="stopVideo('hywyOQxb02g')">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
@@ -1497,7 +1487,6 @@
                         </div>
                     </div>
                     <div class="row">
-                        <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/21a1bTVwjdo?rel=0&amp;controls=0&amp;showinfo=0&amp;" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>-->
                         <div id="player8"></div>
                     </div>
                 </div>

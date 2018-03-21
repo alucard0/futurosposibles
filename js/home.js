@@ -38,7 +38,10 @@ jQuery(function($){
 	});
 
 //$('.campana').click(function(){ Anim.restart(); }) ;
+$('p.reload').click(function(){ 
+	 location.reload();
 
+});
 
 
 });

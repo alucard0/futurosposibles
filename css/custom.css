@@ -440,7 +440,48 @@ div#aceleradores p.titulo span.diagonalRojo{
 }
 
 /*aplicaciones campaña*/
+div#imagenesCampana div.bgAC1{
+  background-image: url('../images/aplicacion/Medios_Menu_Prepa.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#imagenesCampana div.bgAC2{
+  background-image: url('../images/aplicacion/Medios_Menu_Lic.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#imagenesCampana div.bgAC3{
+  background-image: url('../images/aplicacion/Medios_Menu_Posg.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+div#imagenesCampana div.bgAC4{
+  background-image: url('../images/aplicacion/Medios_Menu_Gen.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+div#quiz p.reload{
+  text-align: center;
+  background: #7c7f80;
+  padding: 15px 20px;
+}
 #myCarousel .list-inline,
 #myCarousel2 .list-inline,
 #myCarousel3 .list-inline,
