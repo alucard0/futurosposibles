@@ -111,8 +111,8 @@ div.bgGris4{
 div.menu p{
   margin-bottom: 0;
   text-align: left;
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 25px;
+  line-height: 25px;
 }
 
 hr.horizontal{
@@ -419,18 +419,18 @@ div#aceleradores div.bgA9{
 div#aceleradores p.titulo{
   margin-bottom: 0;
   text-align: center;
-  font-size: 45px;
-  line-height: 45px;
+  font-size: 25px;
+  line-height: 25px;
   text-shadow: black 3px 3px 8px;
 }
 div#aceleradores p.titulo.vehiculo{
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 23px;
+  line-height: 23px;
 }
 div#aceleradores p.titulo.unicel{
 
-  font-size: 35px;
-  line-height: 35px;
+  font-size: 23px;
+  line-height: 23px;
 }
 div#aceleradores p.titulo span.diagonalRojo{
   color: #B1132F;

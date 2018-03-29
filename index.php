@@ -208,6 +208,7 @@
                     <div class="col-xl-4">
                         <p class="reload">Recargar</p>
                     </div>
+                    <div class="home"></div>
                 </div>
             </div>
             <div id="imagenesCampana" class="h-100">
@@ -647,7 +648,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">Prepa: esperanza y sueños</p>
-                            <p class="contenido">“Imagina un futuro distinto”</p>
+                            <p class="contenido">Nuestros estudiantes de Prepa La Salle son portadores de esperanza y sueños que formarán el pensamiento de las sociedades del futuro.</p>
                         </div>
                     </div>
                 </div>
@@ -718,7 +719,7 @@
                     <div class="row">
                         <div class="col-xl-12">
                             <p class="titulo">Licenciatura:  inspiración y creación</p>
-                            <p class="contenido">“Materializa tus sueños e ideas”</p>
+                            <p class="contenido">La inspiración y creación es un distintivo de nuestros estudiantes de Licenciatura, a través de sus acciones del día a día, interviniendo, planeando y materializando las Grandes Ideas que detonarán los Futuros Posibles que hoy soñamos.</p>
                         </div>
                     </div>
                 </div>
@@ -779,8 +780,8 @@
                 <div class="col-xl-6">
                     <div class="row">
                         <div class="col-xl-12">
-                            <p class="titulo">Posgrado: movimiento, aceleración, materialización</p>
-                            <p class="contenido">“Transforma tu entorno, sueña un futuro brillante”</p>
+                            <p class="titulo">Posgrado: aceleración y transformación</p>
+                            <p class="contenido">La experiencia será un factor determinante para que nuestros #ProfesionalesconValor transformen, impulsen y aceleren la transición del presente inmediato a los Futuros posibles derivados de la permanente generación de Grandes Ideas.</p>
                         </div>
                     </div>
                 </div>
@@ -865,8 +866,17 @@
                 <div class="col-xl-6">
                     <div class="row">
                         <div class="col-xl-12">
-                            <p class="titulo">Inspira, crea, transforma</p>
-                            <p class="contenido">...</p>
+                            <p class="titulo">Grandes ideas, futuros posibles</p>
+                            <p class="contenido">Es una invitación a imaginar, a crear y transformar el futuro a través de los programas de La Salle.<br>
+                                <br>
+                                ¿Qué futuro imaginas?<br>
+                                ¿Qué futuro quieres? <br>
+                                ¿Cuál es tu causa?<br>
+                            </p>
+                            <p class="contenido">
+                                Son las 3 preguntas que detonan la reflexión de lo que hacemos hoy, en La Salle, los futuros que imaginas, son posibles.
+                            </p>
+                             
                         </div>
                     </div>
                 </div>
@@ -1398,8 +1408,8 @@
                 <div class="col-xl-6">
                     <div class="row">
                         <div class="col-xl-12">
-                            <p class="titulo">bla</p>
-                            <p class="contenido">bla</p>
+                            <p class="titulo">Leyes del progreso</p>
+                            <p class="contenido">Un mundo verde, incluyente y equitativo es posible, hagamos que el Derecho sea el canal para romper la desigualdad, las fronteras e inclusión del “otro”.</p>
                         </div>
                     </div>
                     <div class="row">
